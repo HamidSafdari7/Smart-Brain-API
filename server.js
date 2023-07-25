@@ -11,6 +11,7 @@ const db = knex({
     client: 'pg',
     connection: {
         host: 'finn.iran.liara.ir',
+        ssl: { rejectUnauthorized: false },
         port: 34364,
         user: 'root',
         password: 'Vt5VcpVOnZ48Hlp2ib7KguKX',
