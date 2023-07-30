@@ -15,7 +15,7 @@ const db = knex({
         port: 34364,
         user: 'root',
         password: 'Vt5VcpVOnZ48Hlp2ib7KguKX',
-        database: 'smartBrain'
+        database: 'SmartBrain'
     }
 });
 
