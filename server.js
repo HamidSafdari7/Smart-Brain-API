@@ -10,13 +10,13 @@ const image = require('./controllers/image');
 const db = knex({
     client: 'pg',
     connection: {
-        connectionString:'postgresql://root:Vt5VcpVOnZ48Hlp2ib7KguKX@finn.iran.liara.ir:34364/postgres',
-        host: 'finn.iran.liara.ir',
+        connectionString:'postgresql://postgres:iu0Px6Iq9Zy2HrndqWGs@containers-us-west-102.railway.app:6603/railway',
+        host: 'containers-us-west-102.railway.app',
         ssl: { rejectUnauthorized: false },
-        port: 34364,
-        user: 'root',
-        password: 'Vt5VcpVOnZ48Hlp2ib7KguKX',
-        database: 'SmartBrain'
+        port: 6603,
+        user: 'postgres',
+        password: 'iu0Px6Iq9Zy2HrndqWGs',
+        database: 'railway'
     }
 });
 
